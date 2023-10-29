@@ -13,7 +13,7 @@ interface FeatureCardProps {
 
 const FeatureCard = ({ title, desc, icon }: FeatureCardProps) => {
   return (
-    <div className="relative bg-white/30 backdrop-blur-sm bg-opacity-20 dark:bg-gray-700 dark:bg-opacity-30 p-5 shadow-lg border border-violet-200 rounded-lg">
+    <div className="relative bg-white/30 backdrop-blur-sm bg-opacity-20 dark:bg-gray-700 dark:bg-opacity-30 p-5 shadow-lg border border-violet-200 dark:border-0 rounded-lg">
       <dt className="flex flex-col items-center md:items-start">
         <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#732fff] dark:bg-[#a13bf7] text-white">
           {icon}
@@ -38,10 +38,10 @@ export default function Hero() {
             <span className="block xl:inline text-gray-800 dark:text-gray-200">
               Ship authentic.
             </span>
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#732fff] to-[#a75eff] dark:from-violet-300 dark:to-violet-400 pb-4">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#732fff] to-[#a75eff] dark:from-[#a13bf7] dark:to-[#7500ff] pb-4">
               RouteX
             </span>
-            <span className="block font-semibold text-[#732fff] dark:text-sky-400 text-2xl">Provenance with trust</span>
+            <span className="block font-semibold text-[#732fff] dark:text-[#65dbff] text-2xl">Provenance with trust</span>
           </h1>
           <p className="mt-3 text-gray-700 dark:text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Verify the authenticity of products by unique product ID.
