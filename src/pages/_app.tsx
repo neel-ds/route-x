@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 import NavBar from "@/components/NavBar";
 import { ChakraProvider } from "@chakra-ui/react";
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </ChakraProvider>
       </div>
+      <Footer />
     </ThemeProvider>
   );
 }
