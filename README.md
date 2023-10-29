@@ -1,9 +1,12 @@
 # RouteX
 The RouteX is an interactive platform to verify the authenticity of the product and take logistics operations on-chain. The user can have confidence that they are purchasing genuine products and not counterfeits. It actually provides the whole supply chain operation like adding products or updating product locations to maintain a secure channel for verifying the provenance of the products. It's more convenient for users to scan QR and get all relevant product details. Check out our flow for a better understanding.
 
+![RouteX](https://github.com/neel-ds/route-x/assets/79443588/ef15e211-bbef-4105-bc1c-6205bf00da7d)
+
+
 ## Prerequisites
 
-Every user must have a Metamask wallet to verify the provenance of products. Check out how to create a Metamask wallet from [here](https://metamask.io). Also, add a scroll testnet network.
+Every user must have a Metamask wallet to verify the provenance of products. Check out how to create a Metamask wallet from [here](https://metamask.io).
 
 Follow the instructions for the local environment: The user must have Node.js and npm to run this platform. Just download Node.js from [here](https://nodejs.org/en/download/).
 
