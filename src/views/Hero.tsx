@@ -38,7 +38,7 @@ export default function Hero() {
             <span className="block xl:inline text-gray-800 dark:text-gray-200">
               Ship authentic.
             </span>
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#732fff] to-[#a75eff] dark:from-[#a13bf7] dark:to-[#7500ff] pb-4">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#732fff] to-[#a75eff] dark:from-[#87e3ff] dark:to-[#2bcdff] pb-4">
               RouteX
             </span>
             <span className="block font-semibold text-[#732fff] dark:text-[#65dbff] text-2xl">Provenance with trust</span>
