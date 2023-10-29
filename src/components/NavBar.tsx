@@ -15,6 +15,7 @@ import {
   PopoverTrigger,
   PopoverContent,
 } from "@chakra-ui/react";
+import { Web3Button } from "@web3modal/react";
 
 const NavBar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -70,6 +71,7 @@ const NavBar = () => {
             </span>
           </Link>
           <div className="flex md:order-2" style={{ marginLeft: "2rem" }}>
+            <Web3Button />
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"

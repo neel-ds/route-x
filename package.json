@@ -12,12 +12,16 @@
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
     "framer-motion": "^10.16.4",
     "next": "14.0.0",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "viem": "^1.18.0",
+    "wagmi": "^1.4.5"
   },
   "devDependencies": {
     "@types/node": "^20",
