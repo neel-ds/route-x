@@ -104,7 +104,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  href="/explore"
+                  href="#"
                   className={`${
                     pathname === "/products"
                       ? "text-[#a137df] dark:text-white"
@@ -160,7 +160,7 @@ const NavBar = () => {
                       </Stack>
                     </Link>
                     <Link
-                      href="/updateProduct"
+                      href="/#"
                       className="group display-block p-2 rounded-md hover:bg-violet-200 hover:text-violet-600"
                     >
                       <Stack direction={"row"} align={"center"}>
@@ -179,7 +179,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  href="/history"
+                  href="/#"
                   className={`${
                     pathname === "/history"
                       ? "text-[#a137df] dark:text-white"
